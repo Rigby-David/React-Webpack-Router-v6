@@ -1,9 +1,9 @@
 // import React from 'react'
 import './Header.css';
 
-import Navigation from './Navigation';
+import Navigation from '../Navigation/Navigation';
 import styles from './Header.css';
-import { Outlet } from 'react-router-dom';
+// import { Outlet } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -14,7 +14,7 @@ export default function Header() {
           <Navigation/>
         </div>
       </header>
-      <Outlet/>
+      {/* <Outlet/> */}
     </>
   );
 }

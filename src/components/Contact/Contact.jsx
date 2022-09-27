@@ -1,8 +1,9 @@
 import { Link, Outlet } from 'react-router-dom';
+import styles from './Contact.css';
 
 export default function Contact() {
   return (
-    <div>
+    <div className={styles.Contact}>
       <h1>Contact</h1>
       <nav>
         <Link to="">Email</Link>

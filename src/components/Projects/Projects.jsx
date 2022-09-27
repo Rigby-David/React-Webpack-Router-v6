@@ -1,14 +1,10 @@
-// import React from 'react';
-
-import { Link } from 'react-router-dom';
+import styles from './Projects.css';
 
 export default function Projects() {
   return (
-    <div>
+    <div className={styles.Projects}>
       <h1>Projects</h1>
-      <nav>
-        <Link to=""></Link>
-      </nav>
+      
     </div>
 
   );
