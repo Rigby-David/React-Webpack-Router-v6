@@ -11,4 +11,4 @@ export default function About() {
     </div>
   );
 }
-//small changes
+//small change
